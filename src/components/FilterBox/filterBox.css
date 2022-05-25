@@ -1,0 +1,19 @@
+.box {
+  position: relative;
+  display: flex;
+  padding: 10px;
+  border-right: 2px solid grey;
+  color: white;
+  flex-direction: column;
+  min-width: 250px;
+}
+.inclined::after {
+  transform: skewX(-20deg);
+  z-index: -1;
+}
+.green {
+  background: rgb(34, 197, 94);
+}
+.blue {
+  background: rgb(0, 126, 199);
+}

@@ -1,0 +1,40 @@
+.top {
+  -webkit-animation: floatBubble 5s infinite normal ease-out;
+  animation: floatBubble 5s infinite normal ease-out;
+}
+@-webkit-keyframes floatBubble {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@keyframes floatBubble {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.bottom {
+  -webkit-animation: floatBubbleBottom 5s infinite normal ease-out;
+  animation: floatBubbleBottom 5s infinite normal ease-out;
+}
+@-webkit-keyframes floatBubbleBottom {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+@keyframes floatBubbleBottom {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
